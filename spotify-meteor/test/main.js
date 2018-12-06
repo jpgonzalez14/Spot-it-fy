@@ -1,5 +1,5 @@
 import assert from "assert";
-
+//hace falta hacer test de otros metodos
 describe("spotify-meteor", function () {
   it("package.json has correct name", async function () {
     const { name } = await import("../package.json");
